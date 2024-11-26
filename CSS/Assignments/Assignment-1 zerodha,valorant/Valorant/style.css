@@ -1,0 +1,76 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(Assets/c8157d71a4776dd821d05ed6b82d5d875ca03386-5120x1644.webp)
+}
+.logo img{
+    font-size: 30px;
+    width: 129.41px;
+    height: 17px;
+}
+section{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 10px 20px 0x 20px;
+}
+.boy-1{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    /* by default the items are stretching so we utilise  align items so that the elements limit themselves along the cross axis */
+}
+.boy-1 h1{
+    align-items: flex-start;
+    font-size: 155px;
+    font-weight: 500;
+    font-family: tungsten;
+    color:#0f1923;
+    line-height: 150px;
+    word-spacing: 0px;
+}
+h3{
+    color: #0f1923;
+    font: 18px;
+    /* padding: 0px 100px 0px; */
+    
+}
+.boy-1 p{
+    width: 640px;
+    height: 140px;
+    color: #0f1923;
+    word-spacing: 10px;
+    padding-top: 8px;
+    font-family: DIN Alternate;
+}
+.boy-1 button{
+    height: 8vh;
+    width: 14vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: #ff4655;
+    color: azure;
+}
+button :hover{
+    color: aqua;
+    cursor:grab;
+}
+.boy-2{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    align-content: start;
+}

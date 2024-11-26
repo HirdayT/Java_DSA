@@ -1,0 +1,67 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+section{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap:80px;
+
+}
+.card h1{
+    align-items:start;
+}
+
+.card{
+    height: 550px;
+    width: 450px;
+    background-color: #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.0rem;
+    text-align: center;
+}
+section div img{
+    width: 60%;
+    height: 74%;
+
+}
+.card:hover{
+    box-shadow:0px 10px 2px 5px rgb(219, 217, 217);
+}
+/* .card::before {
+    content: attr(data-number); /* Use the data attribute for numbering */
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* font-size: 5rem; */
+    /* color: rgba(231, 17, 17, 0.82); Light gray for background text */
+    /* font-weight: bold; */
+    /* z-index: 0; Place the text behind card content */
+    /* pointer-events: none; Ignore interactions on the background text 
+}
+
+/* Ensuring Card Content Stays Visible */
+/* .card > * {
+    position: relative;
+    z-index: 1; /* Keep content above the background text */

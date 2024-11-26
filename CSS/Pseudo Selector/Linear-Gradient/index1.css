@@ -1,0 +1,50 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;   
+    height: 100vh;
+}
+header{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header>a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 24px;
+}
+section{
+    background-color: lightblue;
+    height: 90%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .Wrapper{
+    width: 1000px;
+    height: 400px;
+    background-image: linear-gradient(to bottom,#12c2e9 60%,#c471ed 40%,#f64f59 3%);
+    /* for a lesser succesive % in gradient the color backtracks to providing a solid color and covering the previous iteration% */
+    padding: 4rem 3rem;
+}
+section .Wrapper h2{
+    font-size: 48px;
+    margin-bottom: 16px;
+    color: white;
+}s
+section .Wrapper p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px;
+    color: white;
+}

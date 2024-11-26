@@ -1,0 +1,44 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height:100vh;
+}
+section{
+    width: 100%;
+    height: 100%;
+}
+.section-1{
+    background-image: url("https://wallpapers.com/images/hd/need-for-speed-bmw-m3-gtr-e46-prawhmesct11u0wb.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    
+}
+.section-2{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/1005/356/840/bmw-m3-gtr-need-for-speed-most-wanted-games-art-car-hd-wallpaper-preview.jpg") ;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.section-3{
+    background-image:url("https://wallpapers.com/images/hd/2560-x-1440-car-nfyurdq0lau1rnvg.jpg");
+    background-size:100% 100%;
+}
+
+.section-4{
+    background-image:url("https://preview.redd.it/447j0pdazt371.jpg?width=1080&crop=smart&auto=webp&s=80e1a6626800d7a4e0fb4343d30e5dd21b4bd5d5");
+    background-size:100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.section-5{
+    background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5afd47ff-950f-4891-8237-b50479ad6789/dgu23xr-d98f4fb7-b558-4bd4-83ff-26aaa80c751a.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVhZmQ0N2ZmLTk1MGYtNDg5MS04MjM3LWI1MDQ3OWFkNjc4OVwvZGd1MjN4ci1kOThmNGZiNy1iNTU4LTRiZDQtODNmZi0yNmFhYTgwYzc1MWEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.k7KfpkmqY2lyMOqga6suMamlnpLePLA59xVKEzXIHZg");
+    background-size:100% 100%;
+}

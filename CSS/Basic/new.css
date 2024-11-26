@@ -1,0 +1,20 @@
+article >p:first-child{
+    color: blue;
+    }
+    /* Use last-of
+    instead of last-child */
+    article>p:last-of-type{
+        color: pink;
+    }
+
+    article>span:last-of-type{
+        color:green;
+    }
+
+    article>span:nth-of-type(3){
+        background-color: blue ;
+    }
+    article>span:nth-last-of-type(3){
+        background-color: aliceblue;
+
+    }

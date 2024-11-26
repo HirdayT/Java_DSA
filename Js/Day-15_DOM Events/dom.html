@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom in js</title>
+</head>
+<body>
+    <!-- <h1 id = "head">Welcome to dom1</h1>
+
+    <section class="container">container 1 </section>
+    <section class="container">container 2 </section>
+    <section class="container">container 3</section>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nostrum.</p>
+     -->
+    
+    <button onclick="clickfun()">click</button>
+
+    <button ondblclick = "clickdbl()">double click</button>
+
+    <button onmouseenter = "enter()" onmouseleave="leave()">mouse enter</button>
+
+    <section onmousemove="move()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolorum ullam ut provident officia suscipit dicta inventore veniam aliquid fugiat?</section>
+
+    <input type="text" onkeydown="down()" onkeyup="up()">
+
+
+
+
+<br>
+<hr>
+<input type="text" onchange = "changeme()">
+<input type="text">
+
+
+<form onsubmit="formdata()">
+    <input type="text" placeholder="Email" id = "email">
+    <br />
+    <input type="text" placeholder="password" id = "password">
+    <br />
+    <button type="text"> submit</button>
+    <br />
+</form>
+
+
+
+    <script src="domevents.js"></script>
+</body>
+</html>
