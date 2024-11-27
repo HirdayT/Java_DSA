@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom in js</title>
 </head>
-<body>
+<body onload="webpageLoad()">
     <!-- <h1 id = "head">Welcome to dom1</h1>
 
     <section class="container">container 1 </section>
@@ -33,17 +33,23 @@
 <input type="text">
 
 
-<form onsubmit="formdata()">
+<form onsubmit="formdata(event)">
     <input type="text" placeholder="Email" id = "email">
     <br />
     <input type="text" placeholder="password" id = "password">
     <br />
-    <button type="text"> submit</button>
+    <button type="submit"> submit</button>
     <br />
 </form>
 
+<p style = "height:100px;
+            width:300px;
+            background-color:aqua;
+            overflow-y:scroll ;"
+            onscroll="paraScroll()" >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatum repellendus unde quidem ad itaque quod ea sunt qui vitae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatum repellendus unde quidem ad itaque quod ea sunt qui vitae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatum repellendus unde quidem ad itaque quod ea sunt qui vitae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatum repellendus unde quidem ad itaque quod ea sunt qui vitae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatum repellendus unde quidem ad itaque quod ea sunt qui vitae?
 
-
+    </p>
     <script src="domevents.js"></script>
 </body>
 </html>

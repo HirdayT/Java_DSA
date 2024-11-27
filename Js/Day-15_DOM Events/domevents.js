@@ -57,6 +57,24 @@ function changeme(){
 
 //onsubmit 
 //todo =>event of form tag
-function formdata(){
-
+function formdata(event){
+   event.preventDefault()//stop refreshing of the webpage
+   let email = document.querySelector("#email");
+   let password = document.querySelector("#password");
+let user ={
+   email:email.value,
+   password:password.value,
+};
+   console.log(user);
 }
+//on load 
+function webpageLoad(){
+   console.log("Webpage loaded");
+}
+
+//Scroll
+function paraScroll(){
+   console.log("Paragraph scrolled");
+   
+}
+
