@@ -1,0 +1,41 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+main{
+    height: 90%;
+    width: 90%;
+    margin: 50px;
+    background-color: #f15e5e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+section{
+    height: 80%;
+    width: 80%;
+    background-color: #bb1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+article{
+    height: 50%;
+    width: 50%;
+    background-color: #870f0f;
+}
