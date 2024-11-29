@@ -14,18 +14,25 @@ let article= document.querySelector("article")
 
 main.addEventListener("click", (e)=> {
     e.stopPropagation();
+    // e.stopImmediatePropagation();
     console.log("main");
     main.style.backgroundColor = "pink";
     
-},1)
+},0)
 section.addEventListener("click", (e)=> {
-    e.stopPropagation();
+    // e.stopPropagation();
+    e.stopImmediatePropagation();
     console.log("section");
     section.style.backgroundColor = "Orange";
     
-},1)
+},0)
 article.addEventListener("click", (e)=> {
-    e.stopPropagation();
+    // e.stopPropagation();
+    e.stopImmediatePropagation();
     console.log("article");
     article.style.backgroundColor = "Green";
-},1)
+},0)
+// e.stopImmediatePropagation(); stops the next elements running and stops bubbling
+article.addEventListener("click",()=>{
+    console.log("I am 2nd event");
+})
