@@ -38,17 +38,57 @@
 //Nested function
 
 
-function Parent(){
-    console.log("I am parent function");
+// function Parent(){
+//     console.log("I am parent function");
+//     console.log(arguments);
+
+//     function child(){
+//         console.log("I am child function");
+//     }
+//     return child();
+
+// }
+// let x = Parent();
+// console.log(x);
+// // console.log(x());
+// Parent()()// js currying
+
+
+function calculate() {
+     var n1 = 10
+     let n2 = 20
+     const n3 = 30
+     let sum = n1 + n2 + n3
+     console.log(sum);
+     return sum
+ }
+ let z = calculate
+ console.log(z);
+ let q = z()
+console.log(q);
+
+
+function test(n1,n2,n3){
+     console.log(n1,n2,n3);
     console.log(arguments);
-
-    function child(){
-        console.log("I am child function");
-    }
-
 }
-let x = Parent();
+//todo-> 'Arguments' return in the form of Object
+ test(10,20,30,40,50,60,70)
+
+
+//  ! REST PARAMETERIZED FUNC
+function test(a,b,...x){
+console.log(a,b);
 console.log(x);
-// console.log(x());
-Parent()()// js currying
+ }
+// todo => Spread Operator '...' Can be used to assign objects and arrays
+// In a situation where one key has another property, the last property overrides the first instance:
+
+
+
+test(10,20,30,40,50,60)
+
+    
+    
+    
 

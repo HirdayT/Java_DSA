@@ -12,7 +12,7 @@ console.log(c);
 console.log(typeof c );
 
 var d =true;
-console.log(e);
-console.log(typeof e );
+console.log(d);
+console.log(typeof d );
 
 

@@ -9,23 +9,30 @@
 </head>
 <body>
     <header id = 'header'>
-        <div class = "left"></div>
-        <img src="./SVG/spotify_logo.svg" alt="" srcset="">
+        <div class = "left">
+            <div class = "spotify-logo">
+                <img src="./SVG/spotify_logo.svg" alt="" srcset="">
+            </div> 
+        </div>
+
 
     <div class = "mid">
         <div class ="home"><img src="./SVG/home_logo.svg" alt="" srcset=""></div>
-        <div class = "search container">
+        <div class = "search-container">
             <div class = "search-bar">
-                <img src="./SVG/" alt="" srcset="">
+                <img filter="url(#invert)" src="./SVG/search.svg" alt="">
             </div>
-            <input type="search" placeholder="WHat do you want to play">
-            <div class ="cart"></div>
+                <input type="search" placeholder="What do you want to play">
+            <div class ="cart">
+                <img src="./SVG/cart.svg" alt="">
+            </div>
         </div>
     </div>
         
-        <div class = "right"></div>
-        <button>sign up</button>
-        <button>Login</button>
+        <div class = "right">
+            <button>Sign up</button>
+            <button>Log in</button>
+        </div>
     </header>
     
 </body>

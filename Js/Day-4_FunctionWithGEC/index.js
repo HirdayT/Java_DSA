@@ -2,6 +2,7 @@
 console.log("start");
 var a = 10;
 console.log(a);
+abc();
 function abc(){
     console.log(a);
     console.log("Hello");

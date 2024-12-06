@@ -20,81 +20,99 @@ body{
     justify-content: space-between;
     align-items: center;
     padding-inline: 30px 15px;
- position: fixed;
- top: 0px;
- z-index: 100;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
 
 }
 
 
 #header .spotify-logo{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 38px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 #header .mid{
     display: flex;
     align-items: center;
     gap:0px 20px;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #header .mid .home{
     width: 48px;
     height: 48px;
     background-color: #1f1f1f;
-    display: flex;
-    align-items: center;
+    caret-color: white;
+    display: flex ;
     justify-content: center;
-
+    align-items: center;
+    border-radius: 2rem;
+}
+#header .mid .home img{
+    height: 30px;
+    width: 30px;
 }
 
 #header .mid .search-container{
     display: flex;
     align-items: center;
-    border: 2px center black;
-    width: 474px;
-    height: 48px;
+    justify-content: center;
+    border: 2px solid black;
     border-radius: 25px;
-    padding: 5px;
+    width: 424pxf;
+    height: 48px;
+    padding: 0px 10px;
+    gap: 0 10px;
+    background-color: #1f1f1f;
 }
 
 #header .search-container input{
-    width: 100%;
+    width:100%;
     border: none;
     outline: none;
     border-right: 0.5px solid #1f1f1f;
     font-size: 15px;
-    background-color: none;
+    background: none;
     caret-color: white;
+    color: rgb(115, 112, 112);
 }
 
 #header .search-container .search-bar,
-#header .search-container input
+#header .search-container .cart
 {
-display: flex;
-place-items: center;
+display: inline-flex;
+align-items:center ;
+justify-content: center;
 }
+#header .search-container .search-bar img,
+#header .search-container .cart img{
+    width: 25px;
+    height: 25px;
+}
+
 
 #header .right{
     display: flex;
-    gap: 0px 30px;
-
 }
 #header .right button{
-    padding:7px 20px ;
+    padding:13px 28px ;
     border-radius:20px ;
     border: none;
     outline: none;
     font-size: 14px;
-    font-weight: 500;
-
-
+    font-weight: 500;    
 }
-
-
+#header .right button:hover{
+    cursor: pointer;
+}
 
 #header .right button :first-of-type{
     background: none;
-    color: white;
-
+    color: rgb(162, 160, 160);
 }

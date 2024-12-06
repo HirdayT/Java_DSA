@@ -8,8 +8,9 @@
 //     var x = 100;
 //     let y = 200 ;
 //     const z  =300;
-//     console.log(a1,b1,c1);
+//     console.log(x,y,z);
 // }
+// console.log(y);
 
 //     for(let i =0; i<5 ;i++){
 //     console.log(a1,b1,c1);
@@ -31,17 +32,17 @@
 
 
 
-debugger;
-console.log("start");
-console.log(a,b);
-console.log("Hello");
-var c =300;
-var a = 100;
-console.log(c);
-c = 600;
-var b ;
-console.log(b);
-b=400;
-console.log(a,c,b);
-var d = 500;
-console.log(d);
+// debugger;
+// console.log("start");
+// console.log(a,b);
+// console.log("Hello");
+// var c =300;
+// var a = 100;
+// console.log(c);
+// c = 600;
+// var b ;
+// console.log(b);
+// b=400;
+// console.log(a,c,b);
+// var d = 500;
+// console.log(d);
